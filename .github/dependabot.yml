@@ -16,3 +16,4 @@ registries:
     url: "https://jfrogghdemo.jfrog.io/artifactory/e2e-tests-dependabot-maven-repo/"
     username: "${{ secrets.MAVEN_USERNAME }}"
     password: "${{ secrets.MAVEN_PASSWORD }}"
+    replaces-base: true
